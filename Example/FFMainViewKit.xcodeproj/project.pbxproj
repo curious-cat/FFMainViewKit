@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06B23A925BB2F14EF30B8F47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		214F48830CAE8A3AAB9E6679 /* FFMainViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFMainViewKit.podspec; path = ../FFMainViewKit.podspec; sourceTree = "<group>"; };
-		5C4282A40B904A96C13650F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		06B23A925BB2F14EF30B8F47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		214F48830CAE8A3AAB9E6679 /* FFMainViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFMainViewKit.podspec; path = ../FFMainViewKit.podspec; sourceTree = "<group>"; };
+		5C4282A40B904A96C13650F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5D22B08592D69CCCD6C12621 /* Pods-FFMainViewKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMainViewKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMainViewKit_Tests/Pods-FFMainViewKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFMainViewKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFMainViewKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "842373586@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 2EL42M7VF2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,12 +536,14 @@
 			baseConfigurationReference = E7F16E575E133090E4C5595C /* Pods-FFMainViewKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2EL42M7VF2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFMainViewKit/FFMainViewKit-Prefix.pch";
 				INFOPLIST_FILE = "FFMainViewKit/FFMainViewKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.zhuyunlong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -548,12 +553,14 @@
 			baseConfigurationReference = 6B0DF938EDEC89E3420B3321 /* Pods-FFMainViewKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2EL42M7VF2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFMainViewKit/FFMainViewKit-Prefix.pch";
 				INFOPLIST_FILE = "FFMainViewKit/FFMainViewKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.zhuyunlong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
